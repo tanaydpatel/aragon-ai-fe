@@ -1,4 +1,4 @@
-# India Agriculture Crop Production
+# Task management app
 
 ## Setup instructions
 
@@ -8,38 +8,20 @@
 
 ## Objectives of project
 
-Develop a minimalistic dashboard in front-end offering the below features:
+Your users should be able to:
 
-- Drop down to select a state.
-- A bar chart depicting the production in tonnes per year.
-- A bar chart depicting the production in tonnes per crop.
-- A sortable table with following fields
-  - Year
-  - Crop
-  - District
-  - Area
-  - Production
-  - Yield
-- Selecting a portion of chart should filter the data in table automatically.
+- Create, read, update, and delete boards and tasks
+- There should be frontend form validations when trying to create/edit boards and tasks
+- Use state management on frontend (i.e. react hooks)
+- Hover states for all interactive elements on the page
+- Use the optimal responsive layout for the app depending on their device's screen size
+- You should not use any external component library. Everything should be using react components.
+- Connect the frontend to a backend node.js app. You should be able to store and retrieve data via an api
+- Well thought out tables in the database that follow good system design.
+- You can use any tools you like to help you complete the challenge. But recommended tech stack is to use react.js/next.js, typescript, postgres, and node.js
 
 ## Implementation
 
 - Used React Js to develop the UI components
 - Axios for data fetching
 - Redux Js for maintaing state across various components
-- JWT based user authentication
-
-## Features
-
-- User can login to dashboard to access the secured APIs
-- State list is populated form the API on login
-- By default, data for 'India' is shown in two charts (per year/crop)
-- Clickable bar charts to select specific item from the chart
-- Auto-population of table on selecting either state/year/crop
-- Pagination on report table
-- Multiple field sorting
-
-##
-
-Project is hosted for testing purpose on
-[https://tanaypatel-take-home-assignment.vercel.app/](https://tanaypatel-take-home-assignment.vercel.app/)
