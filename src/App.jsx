@@ -6,7 +6,7 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 
 import { LOCAL_STORAGE_KEYS, ROUTES } from './constants';
 import DashboardLayout from './app/layouts/DashboardLayout';
-import DashboardContainer from './app/containers/Dashboard.container';
+import DashboardContainer from './app/containers/Board.container';
 import { setUser } from './store/reducers/user.reducer';
 import './styles/global.scss';
 import ModalContaienr from './app/containers/common/Modal.contaienr';
@@ -32,7 +32,6 @@ function App() {
     <main>
       {userId ? (
         <QueryClientProvider client={queryClient}>
-          {userId}
           <Routes>
             <Route element={<DashboardLayout />}>
               <Route path={ROUTES.DASHBOARD} element={<DashboardContainer />} />
