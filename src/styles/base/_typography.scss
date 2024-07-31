@@ -1,0 +1,28 @@
+@import './variable';
+
+body {
+  color: #4b4b4b;
+  font-family: $font1;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.4;
+}
+a {
+  color: $dark-gray;
+  text-decoration: none;
+}
+.bold {
+  font-weight: 500;
+}
+.bolder {
+  font-weight: 600;
+}
+.text-center {
+  text-align: center;
+}
+.text-underline {
+  text-decoration: underline;
+}
+.text-justified {
+  text-align: justify;
+}

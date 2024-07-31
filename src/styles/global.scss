@@ -1,0 +1,32 @@
+@import './base/base';
+@import './base/variable';
+@import './base/typography';
+
+.text-center {
+  text-align: center;
+}
+.underline {
+  text-decoration: underline;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.space-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-end {
+  align-items: flex-end;
+}
+.graphYAxis {
+  transform: rotate(90deg);
+}
+.buttonWhite {
+  background: white !important;
+}
