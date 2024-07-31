@@ -20,6 +20,7 @@ html,
 body {
   margin: 0;
   background-color: $white;
+  font-size: 16px;
 }
 
 // change default scroll-bar
@@ -35,11 +36,6 @@ body {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #424242;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: $light-primary;
 }
 
 /* Hide arrows in input type number chrome, safari */

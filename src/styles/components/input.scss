@@ -1,0 +1,27 @@
+@import '../base/variable';
+
+.input-label {
+  display: block;
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+  font-weight: 400;
+  color: $dark-gray;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-field.input-error {
+  border-color: red;
+}
+
+.input-error-message {
+  color: red;
+  margin-top: 8px;
+  display: block;
+}
